@@ -1,0 +1,18 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+.nav-link {
+    color: #000; 
+    text-decoration: none; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+  }
+  .nav-link:hover {
+    background-color: #f0f0f0; /* Ganti latar belakang saat hover */
+    color: #ffffff; /* Ganti warna teks saat hover */
+  }
+  
+  .nav-link.active {
+    font-weight: bold; /* Menebalkan teks untuk tautan aktif */
+    color: #ffffff; /* Mengatur warna untuk tautan aktif */
+  }

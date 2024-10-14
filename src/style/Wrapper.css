@@ -1,0 +1,6 @@
+.wrapper {
+    max-width: 1350px; /* Maksimal lebar konten */
+    margin: 0 auto; /* Pusatkan konten */
+    padding: 20px; /* Ruang di dalam wrapper */
+  }
+  
