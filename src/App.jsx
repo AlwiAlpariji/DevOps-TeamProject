@@ -11,15 +11,12 @@ function App() {
   return (
     <div>
       <Navbarcomp />
-      <Wrapper>
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/Market" element={<Marketpage />} />
           <Route path="/About" element={<Aboutpg />} />
         </Routes>
         <Footercomp />
-      </Wrapper>
-     
     </div>
   );
 }
