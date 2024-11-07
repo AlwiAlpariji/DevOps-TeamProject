@@ -1,7 +1,7 @@
 const Aboutpg = () => {
   return (
     <div>
-      ABOUT
+      Adopt
     </div>
   )
 }

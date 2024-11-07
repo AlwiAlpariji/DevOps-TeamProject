@@ -1,0 +1,9 @@
+.social-icons a {
+    font-size: 1.5rem; /* Adjust the size of social icons */
+}
+
+@media (max-width: 768px) {
+    .social-icons a {
+        font-size: 1.2rem; /* Adjust for smaller screens */
+    }
+}

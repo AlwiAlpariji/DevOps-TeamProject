@@ -1,0 +1,11 @@
+.navbar {
+    padding: 10px; /* Adjust padding as needed */
+}
+
+.nav-link {
+    /* Removed margin from here since it's handled inline */
+}
+
+.nav-link:hover {
+    color: #a3d8a5; /* Lighten color on hover */
+}

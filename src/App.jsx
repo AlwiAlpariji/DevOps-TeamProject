@@ -1,7 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 import Homepage from "./pages/Homepage";
-import Marketpage from "./pages/Marketpage";
-import Aboutpg from "./pages/Aboutpg";
+import Storepage from "./pages/Storepage";
+import Adoptpg from "./pages/Adoptpg";
+import Paymentpg from "./pages/Payment/Paymentpg"
 import Wrapper from "./components/Wrapper";
 
 import Navbarcomp from "./components/Navbarcomp";
@@ -12,9 +13,10 @@ function App() {
     <div>
       <Navbarcomp />
         <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/Market" element={<Marketpage />} />
-          <Route path="/About" element={<Aboutpg />} />
+          <Route path="/" element={<Homepage/>} />
+          <Route path="/Store" element={<Storepage />} />
+          <Route path="/Adopt" element={<Adoptpg/>} />
+          <Route path="/Payment" element={<Paymentpg />} />
         </Routes>
         <Footercomp />
     </div>

@@ -1,7 +1,7 @@
 const Marketpage = () => {
   return (
     <div>
-      MARKET
+      Store
     </div>
   )
 }

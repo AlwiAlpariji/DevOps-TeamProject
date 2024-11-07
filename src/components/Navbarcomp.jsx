@@ -1,18 +1,21 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../style/Navbarcomp.css'; // Optional: for any custom styles
 
 const Navbarcomp = () => {
   return (
     <div>
-      <Navbar expand="lg" className="bg-body-tertiary">
+      <Navbar expand="lg" className="bg-dark text-light">
         <Container>
-          <Navbar.Brand href="#home">Petto</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Brand href="/" className="text-light">Pets Store</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" className="bg-light" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <NavLink to="/" className="nav-link">Home</NavLink>
-              <NavLink to="/Market" className="nav-link">Market</NavLink>
-              <NavLink to="/About" className="nav-link">About</NavLink>
+            <Nav className="ml-auto">
+              <NavLink to="/" className="nav-link text-light">Home</NavLink>
+              <NavLink to="/Store" className="nav-link text-light">Store</NavLink>
+              <NavLink to="/Adopt" className="nav-link text-light">Adopt</NavLink>
+              <NavLink to="/Payment" className="nav-link text-light">Payment</NavLink>
             </Nav>
           </Navbar.Collapse>
         </Container>
