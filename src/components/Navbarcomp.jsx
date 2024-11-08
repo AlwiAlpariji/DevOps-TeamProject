@@ -6,7 +6,7 @@ import '../style/Navbarcomp.css'; // Optional: for any custom styles
 const Navbarcomp = () => {
   return (
     <div>
-      <Navbar expand="lg" className="bg-dark text-light">
+      <Navbar expand="lg" style={{ backgroundColor: '#323232' }} text-light> {/* Updated background color here */}
         <Container>
           <Navbar.Brand href="/" className="text-light">Petto</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className="bg-light" />

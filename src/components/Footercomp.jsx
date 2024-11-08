@@ -4,7 +4,7 @@ import '../style/Footercomp.css'; // Optional: for any custom styles
 
 const FooterComp = () => {
     return (
-        <div className="bg-dark text-light text-center py-5">
+        <div className="text-light text-center py-5" style={{ backgroundColor: '#323232' }}> {/* Updated background color here */}
             <h2>Join Our Newsletter</h2>
             <p>Dapatkan tips merawat hewan peliharaan, penawaran spesial, dan berita terbaru langsung di kotak masuk Anda. Bergabunglah dengan komunitas pecinta hewan sekarang!</p>
             <form className="d-flex justify-content-center align-items-center">
