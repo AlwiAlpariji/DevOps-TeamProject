@@ -6,7 +6,7 @@ const FooterComp = () => {
     return (
         <div className="bg-dark text-light text-center py-5">
             <h2>Join Our Newsletter</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut lorem placerat, laoreet magna non, sagittis augue. Aliquam felis metus.</p>
+            <p>Dapatkan tips merawat hewan peliharaan, penawaran spesial, dan berita terbaru langsung di kotak masuk Anda. Bergabunglah dengan komunitas pecinta hewan sekarang!</p>
             <form className="d-flex justify-content-center align-items-center">
                 <input 
                     type="email" 

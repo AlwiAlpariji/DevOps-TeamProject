@@ -8,10 +8,10 @@ const Navbarcomp = () => {
     <div>
       <Navbar expand="lg" className="bg-dark text-light">
         <Container>
-          <Navbar.Brand href="/" className="text-light">Pets Store</Navbar.Brand>
+          <Navbar.Brand href="/" className="text-light">Petto</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className="bg-light" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto">
+            <Nav className="ms-auto">
               <NavLink to="/" className="nav-link text-light">Home</NavLink>
               <NavLink to="/Store" className="nav-link text-light">Store</NavLink>
               <NavLink to="/Adopt" className="nav-link text-light">Adopt</NavLink>

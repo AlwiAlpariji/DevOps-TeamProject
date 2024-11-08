@@ -3,7 +3,6 @@ import Homepage from "./pages/Homepage";
 import Storepage from "./pages/Storepage";
 import Adoptpg from "./pages/Adoptpg";
 import Paymentpg from "./pages/Payment/Paymentpg"
-import Wrapper from "./components/Wrapper";
 
 import Navbarcomp from "./components/Navbarcomp";
 import Footercomp from "./components/Footercomp";
