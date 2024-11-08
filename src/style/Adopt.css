@@ -1,0 +1,13 @@
+body {
+    background-color: #D9E4DD; /* Light background */
+}
+
+.card {
+    border: none; /* Remove card border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Light shadow */
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0 0; /* Rounded top corners for images */
+}

@@ -56,7 +56,7 @@ const Homepage = () => {
         <div className="row">
           <div className="col-md-4 mb-4">
             <div className="card h-100">
-              <img src="/path/to/cat-anna.jpg" className="card-img-top" alt="Anna" />
+              <img src="public/Kucing 1.jpg" className="card-img-top" alt="Anna" />
               <div className="card-body">
                 <h5 className="card-title">Anna</h5>
                 <p className="card-text">Domestic Short-Hair</p>
@@ -67,7 +67,7 @@ const Homepage = () => {
           
           <div className="col-md-4 mb-4">
             <div className="card h-100">
-              <img src="/path/to/dog-ollie.jpg" className="card-img-top" alt="Ollie" />
+              <img src="public/Kucing 1.jpg" className="card-img-top" alt="Ollie" />
               <div className="card-body">
                 <h5 className="card-title">Ollie</h5>
                 <p className="card-text">Doberman</p>
@@ -78,7 +78,7 @@ const Homepage = () => {
           
           <div className="col-md-4 mb-4">
             <div className="card h-100">
-              <img src="/path/to/cat-will.jpg" className="card-img-top" alt="Will" />
+              <img src="public/Kucing 1.jpg" className="card-img-top" alt="Will" />
               <div className="card-body">
                 <h5 className="card-title">Will</h5>
                 <p className="card-text">Domestic Short-Hair</p>
