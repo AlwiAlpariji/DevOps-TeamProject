@@ -21,7 +21,7 @@ const Homepage = () => {
         ></div>
         <div className="container h-100">
           <div className="content position-relative z-1 text-white d-flex flex-column justify-content-center align-items-start h-100">
-            <h1 className="display-4 fw-bold">Netto Pet Shop</h1>
+            <h1 className="display-4 fw-bold">Alwi Pet Shop</h1>
             <p className="lead">BECAUSE WE LOVE ANIMAL</p>
             <div className="mt-4">
               <button className="btn btn-light me-3">Consultation</button>
