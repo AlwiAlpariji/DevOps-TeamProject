@@ -27,8 +27,8 @@ spec:
   selector:
     app: catto
   ports:
-    - port: 3000
-      targetPort: 3000
+    - port: 8080
+      targetPort: 8080
 
 ---
 apiVersion: autoscaling/v2

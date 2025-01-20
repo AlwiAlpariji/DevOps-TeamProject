@@ -8,14 +8,12 @@ WORKDIR /app
 COPY package*.json ./
 
 
-# Step 5: Copy seluruh file project ke dalam container
+# Step 4: Copy seluruh file project ke dalam container
 COPY . .
 
-# Step 6: Install dependencies
+# Step 5: Install dependencies
 RUN npm install
 
-# Expose
-EXPOSE 3000
 
 # Jalankan Node
 CMD ["npm", "run", "dev"]
