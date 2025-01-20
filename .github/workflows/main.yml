@@ -20,4 +20,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{secrets.DOCKER_USERNAME}}/catto:1.0.3
+          tags: ${{secrets.DOCKER_USERNAME}}/catto:1.0.4
