@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: catto
-          image: kvintan/catto:1.0.0
+          image: kvintan/catto:1.0.1
 ---
 apiVersion: v1
 kind: Service
